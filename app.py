@@ -1,11 +1,12 @@
 from flask import Flask
 from flask_jwt_extended import JWTManager
-
+from flask_cors import CORS
 from config import Config
 from models import db
 from routes import auth, books, cart, orders
 
 app = Flask(__name__)
+CORS(app)
 app.config.from_object(Config)
 db.init_app(app)
 
