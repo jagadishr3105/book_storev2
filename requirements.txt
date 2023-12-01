@@ -1,0 +1,13 @@
+SQLAlchemy==1.4.49
+Werkzeug==1.0.1
+scandir==1.10.0
+PyMySQL==0.10.1
+PyJWT==1.7.1
+mysql-connector-python==8.0.33
+Jinja2==2.11.3
+Flask-JWT-Extended==3.25.1
+Flask-MySQL==1.5.2
+Flask-SQLAlchemy==2.5.1
+Flask==1.1.4
+Flask-Bcrypt==1.0.1
+bcrypt==3.1.7
